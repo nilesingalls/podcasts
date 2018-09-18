@@ -7,8 +7,7 @@
 		<language>en-us</language>
 		<copyright>&#xA9; Hot Iron Entertainment</copyright>
 		<image>
-		<url>https://podcast.unhitched.com/images/itunes_image.jpg</url>
-                <url>https://drive.google.com/open?id=1B5bzF5-0_X_jiHf6PpaXf-QJMw0fJFC1</url>
+                <url>https://raw.githubusercontent.com/nilesingalls/podcasts/master/images/itunes_image.jpg</url>
 		<title>Resisting Enlightenment</title>
 		<link>https://podcast.unhitched.com/</link>
 		</image>
@@ -20,7 +19,7 @@
 			<itunes:name>Antsy McClain</itunes:name>
 			<itunes:email>thetroubs@unhitched.com</itunes:email>
 		</itunes:owner>
-		<itunes:image href="https://podcast.unhitched.com/images/itunes_image.jpg"/>
+		<itunes:image href="https://raw.githubusercontent.com/nilesingalls/podcasts/master/images/itunes_image.jpg"/>
 		<itunes:category text="Arts">
 			<itunes:category text="Performing Arts"/>
 		</itunes:category>
@@ -37,8 +36,8 @@
 			</itunes:category>
 			<itunes:explicit>yes</itunes:explicit>
 			<itunes:duration>28:34</itunes:duration>
-			<guid isPermaLink="true">https://podcast.unhitched.com/?name=2018-08-18_resist_8_17_181.mp3</guid>
-			<enclosure url="https://podcast.unhitched.com/?name=2018-08-18_resist_8_17_181.mp3" length="41141938" type="audio/mpeg" />
+                        <guid isPermaLink="true">https://drive.google.com/open?id=1CUcH7YVVVbhqq7m4jNFnKVjdqNlUK8qr</guid>
+			<enclosure url="https://drive.google.com/open?id=1CUcH7YVVVbhqq7m4jNFnKVjdqNlUK8qr" length="41141938" type="audio/mpeg" />
 		</item>
 	</channel>
 </rss>
