@@ -1,0 +1,8 @@
+- hosts: localhost
+  roles:
+#    - ansible-sox-role
+
+  tasks:
+  - import_tasks: tasks/main.yml
+
+#  - include_role:
