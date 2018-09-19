@@ -7,7 +7,7 @@
 		<language>en-us</language>
 		<copyright>&#xA9; Hot Iron Entertainment</copyright>
 		<image>
-                <url>https://raw.githubusercontent.com/nilesingalls/podcasts/master/images/itunes_image.jpg</url>
+                <url>http://unhitched.com/Podcasts/itunes_image.jpg</url>
 		<title>Resisting Enlightenment</title>
 		<link>https://podcast.unhitched.com/</link>
 		</image>
@@ -19,7 +19,7 @@
 			<itunes:name>Antsy McClain</itunes:name>
 			<itunes:email>thetroubs@unhitched.com</itunes:email>
 		</itunes:owner>
-		<itunes:image href="https://raw.githubusercontent.com/nilesingalls/podcasts/master/images/itunes_image.jpg"/>
+		<itunes:image href="http://unhitched.com/Podcasts/itunes_image.jpg"/>
 		<itunes:category text="Arts">
 			<itunes:category text="Performing Arts"/>
 		</itunes:category>
