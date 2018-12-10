@@ -104,5 +104,22 @@ Singer songwriter Antsy McClain reaches out to friends dealing with the Californ
                         <guid isPermaLink="true">https://unhitched.com/Podcasts/SURVIVING_DISASTER_11_24_18.mp3</guid>
                         <enclosure url="https://unhitched.com/Podcasts/SURVIVING_DISASTER_11_24_18.mp3" length="60297219" type="audio/mpeg" />
                 </item>
+                <item>
+                        <itunes:author>Antsy McClain</itunes:author>
+                        <title>Resisting Enlightenment #6 Sacred Clowns</title>
+                        <pubDate>Sat, 8 Dec 2018 23:59:58 +0000</pubDate>
+                        <description>Episode 6: Sacred Clowns
+Singer songwriter Antsy McClain muses on the lovable people who make us laugh. Songs include: Inspector 372 (Live); Another Happy Song; When You’re Laughing; I’m Gonna Be Happy If It Kills Me, and a brand new song in demo form called, Ain’t That a lot Like Life? which will be on his upcoming album due out in the Spring of 2019.</descr
+iption>
+                        <itunes:subtitle>The podcast that unwisely revisiting those awkward moments that keep us up at night.</itunes:subtitle>
+                        <itunes:summary><![CDATA[<p style="text-align: left;">Antsy McClain's podcast unwisely revisits the painful, awkward moments that keep us up at night, and offers no answers - just the sweet but impotent act of commiseration. Co-hosted with his longtime friend and musical collaborator, Chris "Spoons" Long, Resisting Enlightenment stumbles toward wisdom even while we seem to be doing our damndest to avoid learning anything at all from the experience. Mixed with humor, heart, a little music and just the right amount of insight, Resisting Enlightenment wants you to know you're not alone in being a dumbass. You don't have to be an Antsy McClain or Trailer Park Troubadours fan to enjoy Resisting Enlightenment, but we're betting you will be after you hang out for awhile.</p>]]></itunes:summary>
+                        <itunes:category text="Arts">
+                                <itunes:category text="Arts"/>
+                        </itunes:category>
+                        <itunes:explicit>yes</itunes:explicit>
+                        <itunes:duration>35:56</itunes:duration>
+                        <guid isPermaLink="true">https://unhitched.com/Podcasts/SCARED_CLOWNS-HIGH_12_08_18.mp3</guid>
+                        <enclosure url="https://unhitched.com/Podcasts/SCARED_CLOWNS-HIGH_12_08_18.mp3" length="34501613" type="audio/mpeg" />
+                </item>
         </channel>
 </rss>
