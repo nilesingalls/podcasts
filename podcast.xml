@@ -138,6 +138,20 @@ Singer songwriter Antsy McClain talks with his friend Chris "Spoons" Long about 
                         <guid isPermaLink="true">https://unhitched.com/Podcasts/GIRLS_FEAR_LOVE_DAVIDSON_12_10_18.mp3</guid>
                         <enclosure url="https://unhitched.com/Podcasts/GIRLS_FEAR_LOVE_DAVIDSON_12_10_18.mp3" length="25062840" type="audio/mpeg" />
                 </item>
-
+                <item>
+                        <itunes:author>Antsy McClain</itunes:author>
+                        <title>Resisting Enlightenment #8 </title>
+                        <pubDate>Friday, 22 Mar 2019 20:21:22 +0000</pubDate>
+                        <description>Episode 8: Singer/songwriter Antsy McClain confesses that he almost quit many times over the years. But recent experiences have given him an appreciation for his 25 years in the entertainment business. He has words of encouragement for young artists embarking on the difficult but rewarding path toward authenticity. Songs include Right Side of the Dirt and All in the Trip.</description> 
+                        <itunes:subtitle>The podcast that unwisely revisiting those awkward moments that keep us up at night.</itunes:subtitle>
+                        <itunes:summary><![CDATA[<p style="text-align: left;">Antsy McClain's podcast unwisely revisits the painful, awkward moments that keep us up at night, and offers no answers - just the sweet but impotent act of commiseration. Co-hosted with his longtime friend and musical collaborator, Chris "Spoons" Long, Resisting Enlightenment stumbles toward wisdom even while we seem to be doing our damndest to avoid learning anything at all from the experience. Mixed with humor, heart, a little music and just the right amount of insight, Resisting Enlightenment wants you to know you're not alone in being a dumbass. You don't have to be an Antsy McClain or Trailer Park Troubadours fan to enjoy Resisting Enlightenment, but we're betting you will be after you hang out for awhile.</p>]]></itunes:summary>
+                        <itunes:category text="Arts">
+                                <itunes:category text="Arts"/>
+                        </itunes:category>
+                        <itunes:explicit>yes</itunes:explicit>
+                        <itunes:duration>22:34</itunes:duration>
+                        <guid isPermaLink="true">https://unhitched.com/Podcasts/PERSEVERANCE_03_22_19.mp3</guid>
+                        <enclosure url="https://unhitched.com/Podcasts/PERSEVERANCE_03_22_19.mp3" length="21670265" type="audio/mpeg" />
+                </item>
         </channel>
 </rss>
