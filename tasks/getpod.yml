@@ -1,0 +1,36 @@
+---
+- name: get podcast info
+  uri:
+    url: https://archive.org/download/{{ item.identifier }}/{{ item.title|replace(" ", "_") }}.mp3
+    method: GET
+    status_code: 200
+    body_format: json
+    creates: '{{ playbook_dir }}/podcasts/{{ item.title|replace(" ", "_") }}.mp3'
+    dest: '{{ playbook_dir }}/podcasts/{{ item.title|replace(" ", "_") }}.mp3'
+
+- name: acquire podcast duration
+  shell: eyeD3 -Q {{ playbook_dir }}/podcasts/{{ item.title|replace(" ", "_") }}.mp3 2>/dev/null | grep -o '[0-2][0-9]:[0-5][0-9]:[0-5][0-9]'
+  register: duration
+
+- name: acquire podcast size
+  shell: ls -lrt {{ playbook_dir }}/podcasts/{{ item.title|replace(" ", "_") }}.mp3 2>/dev/null | nawk '{print $5}'
+  register: size
+
+- lineinfile:
+    path: /tmp/{{ podcastxml }}
+    line: |
+      <item>
+        <itunes:author>{{ itunes.author }}</itunes:author>
+          <title>{{ item.title }}</title>
+          <pubDate>{{ item.date }}</pubDate>
+          <description>{{ item.description }}</description>
+          <itunes:subtitle>{{ itunes.subtitle }}</itunes:subtitle>
+          <itunes:summary>{{ itunes.summary }}</itunes:summary>
+          <itunes:category text="{{ itunes.category.category }}">
+            <itunes:category text="{{ itunes.category.text }}"/>
+          </itunes:category>
+        <itunes:explicit>{{ itunes.explicit }}</itunes:explicit>
+        <itunes:duration>{{ duration.stdout }}</itunes:duration>
+        <guid isPermaLink="true">https://archive.org/download/{{ item.identifier }}/{{ item.title|replace(" ", "_") }}.mp3</guid>
+        <enclosure url="https://archive.org/download/{{ item.identifier }}/{{ item.title|replace(" ", "_") }}.mp3" length="{{ size.stdout }}" type="audio/mpeg" />
+      </item>

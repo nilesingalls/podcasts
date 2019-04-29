@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+		<title>{{ podcast.title }}</title>
+		<link>{{ podcast.link }}</link>
+                <generator>{{ podcast.generator }}</generator>
+		<language>{{ podcast.lang }}</language>
+		<copyright>{{ podcast.copyright }}</copyright>
+		<image>
+                <url>{{ podcast.image.url }}</url>
+		<title>{{ podcast.image.title }}</title>
+		<link>{{ podcast.image.link }}</link>
+		</image>
+		<itunes:subtitle>{{ itunes.subtitle }}</itunes:subtitle>
+		<itunes:summary>{{ itunes.summary }}</itunes:summary>
+		<description>{{ itunes.description }}</description>
+		<itunes:author>{{ itunes.author }}</itunes:author>
+		<itunes:owner>
+			<itunes:name>{{ itunes.owner.name }}</itunes:name>
+			<itunes:email>{{ itunes.owner.email }}</itunes:email>
+		</itunes:owner>
+		<itunes:image href="{{ itunes.image }}"/>
+		<itunes:category text="{{ itunes.category.category }}">
+			<itunes:category text="{{ itunes.category.text }}"/>
+		</itunes:category>
+		<itunes:explicit>{{ itunes.explicit }}</itunes:explicit>
+                {% for episode in episodes %}
+                <item>
+                        <itunes:author>{{ itunes.author }}</itunes:author>
+                        <title>{{ episode.title }}</title>
+                        <description>{{ episode.description }}</description>
+                        <itunes:subtitle>{{ itunes.subtitle }}</itunes:subtitle>
+                        <itunes:summary>{{ itunes.summary }}</itunes:summary>
+                        <itunes:category text="{{ itunes.category.category }}">
+                                <itunes:category text="{{ itunes.category.text }}"/>
+                        </itunes:category>
+                        <itunes:explicit>{{ itunes.explicit }}</itunes.explicit>
+                        <itunes:duration>{{ episode.duration }}</itunes:duration>
+                        <guid isPermaLink="true">{{ episode.permalink }}</guid>
+                        <enclosure url="{{ episode.permalink }}" length="{{ episode.size }}" type="audio/mpeg" />
+                </item> 
+                {% endfor %} 
+        </channel>
+</rss>

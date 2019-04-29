@@ -1,0 +1,7 @@
+- hosts: localhost
+
+  tasks:
+  - include_vars:
+      dir: "{{ playbook_dir }}/vars"
+      files_matching: podcast.yml
+  - import_tasks: tasks/archive.yml

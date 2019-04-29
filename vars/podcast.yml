@@ -1,0 +1,34 @@
+---
+podcastxml: podcast_new.xml
+# search parameters
+archive:
+  search_url: https://archive.org/advancedsearch.php
+  download_url: https://archive.org/download
+  creator: Antsy McClain
+  description: Resisting Enlightenment
+# urlencode the copyright, maybe.
+podcast:
+  title: Resisting Enlightenment
+  link: http://unhitched.com
+  generator: https://github.com/nilesingalls/podcasts
+  lang: en-us
+  copyright: '&#xA9; Hot Iron Entertainment'
+  image:
+    url: https://raw.githubusercontent.com/nilesingalls/podcasts/master/images/itunes_image.jpg
+    title: Resisting Enlightenment
+    link: https://podcast.unhitched.com/
+itunes:
+  subtitle: The podcast that unwisely revisits those awkward moments that keep us up at night.
+  summary: Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out
+  description: Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out
+  author: Antsy McClain
+  owner:
+    name: Antsy McClain
+    email: thetroubs@unhitched.com
+  image:
+    url: https://raw.githubusercontent.com/nilesingalls/podcasts/master/images/itunes_image.jpg
+  category:
+    category: Arts
+    text: Performing Arts
+  explicit: no
+

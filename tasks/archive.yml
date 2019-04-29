@@ -1,0 +1,32 @@
+---
+- name: start tmp podcast.xml file
+  template:
+    src: templates/podcast.xml.j2
+    dest: /tmp/{{ podcastxml }}
+
+- name: return search results from archive.org
+  uri:
+    url: '{{ archive.search_url }}?q=creator:({{ archive.creator|replace(" ", "+") }}) AND description:({{ archive.description|replace(" ", "+") }})&output=json'
+    method: GET
+    status_code: 200
+    body_format: json
+  register: archive
+
+# grab media locally to extract metadata.  (no id3 tags)
+- name: populate podcast items
+  include: tasks/getpod.yml
+  loop: "{{ archive.json.response.docs }}"
+
+- name: close out our xml file
+  lineinfile:
+    path: /tmp/{{ podcastxml }}
+    line: |
+          </channel>
+          </rss>
+
+- name: tidy xml for publication
+  shell: xmllint --format /tmp/{{ podcastxml }} > {{ playbook_dir }}/{{ podcastxml }}
+
+- file:
+    state: absent
+    path: /tmp/{{ podcastxml }}
