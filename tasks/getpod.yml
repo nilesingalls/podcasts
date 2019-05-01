@@ -1,19 +1,29 @@
 ---
+- name: identify our mp3 file
+  shell: wget -qO- https://archive.org/download/{{ item.identifier }} | grep mp3 | sed -n 's/.*href="\([^"]*\).*/\1/p'
+  register: mp3
+
 - name: get podcast info
   uri:
-    url: https://archive.org/download/{{ item.identifier }}/{{ item.title|replace(" ", "_") }}.mp3
+    url: https://archive.org/download/{{ item.identifier }}/{{ mp3.stdout }}
     method: GET
     status_code: 200
     body_format: json
-    creates: '{{ playbook_dir }}/podcasts/{{ item.title|replace(" ", "_") }}.mp3'
-    dest: '{{ playbook_dir }}/podcasts/{{ item.title|replace(" ", "_") }}.mp3'
+    creates: '{{ playbook_dir }}/podcasts/{{ mp3.stdout }}'
+    dest: '{{ playbook_dir }}/podcasts/{{ mp3.stdout }}'
 
 - name: acquire podcast duration
-  shell: eyeD3 -Q {{ playbook_dir }}/podcasts/{{ item.title|replace(" ", "_") }}.mp3 2>/dev/null | grep -o '[0-2][0-9]:[0-5][0-9]:[0-5][0-9]'
+  shell: eyeD3 -Q {{ playbook_dir }}/podcasts/{{ mp3.stdout }} 2>/dev/null | grep -o '[0-2][0-9]:[0-5][0-9]:[0-5][0-9]'
+  ignore_errors: yes
   register: duration
 
+- name: acquire podcast duration
+  shell: eyeD3 -Q {{ playbook_dir }}/podcasts/{{ mp3.stdout }} 2>/dev/null | grep -o '[0-5][0-9]:[0-5][0-9]'
+  register: "{{ 'duration' if duration.failed == true }}"
+  when: duration.failed == true
+
 - name: acquire podcast size
-  shell: ls -lrt {{ playbook_dir }}/podcasts/{{ item.title|replace(" ", "_") }}.mp3 2>/dev/null | nawk '{print $5}'
+  shell: ls -lrt {{ playbook_dir }}/podcasts/{{ mp3.stdout }} 2>/dev/null | nawk '{print $5}'
   register: size
 
 - lineinfile:
@@ -31,6 +41,6 @@
           </itunes:category>
         <itunes:explicit>{{ itunes.explicit }}</itunes:explicit>
         <itunes:duration>{{ duration.stdout }}</itunes:duration>
-        <guid isPermaLink="true">https://archive.org/download/{{ item.identifier }}/{{ item.title|replace(" ", "_") }}.mp3</guid>
-        <enclosure url="https://archive.org/download/{{ item.identifier }}/{{ item.title|replace(" ", "_") }}.mp3" length="{{ size.stdout }}" type="audio/mpeg" />
+        <guid isPermaLink="true">https://archive.org/download/{{ item.identifier }}/{{ mp3.stdout }}</guid>
+        <enclosure url="https://archive.org/download/{{ item.identifier }}/{{ mp3.stdout }}" length="{{ size.stdout }}" type="audio/mpeg" />
       </item>

@@ -5,7 +5,8 @@ archive:
   search_url: https://archive.org/advancedsearch.php
   download_url: https://archive.org/download
   creator: Antsy McClain
-  description: Resisting Enlightenment
+  description:
+  title: Resisting Enlightenment
 # urlencode the copyright, maybe.
 podcast:
   title: Resisting Enlightenment
