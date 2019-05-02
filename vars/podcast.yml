@@ -1,5 +1,5 @@
 ---
-podcastxml: podcast_new.xml
+podcastxml: podcast.xml
 # search parameters
 archive:
   search_url: https://archive.org/advancedsearch.php

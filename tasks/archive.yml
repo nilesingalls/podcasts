@@ -24,6 +24,9 @@
           </channel>
           </rss>
 
+# alright, do a compare on new vs old podcast.xml file.  if there are changes,
+# identify number of items, titles, and email them to someone.
+
 - name: tidy xml for publication
   shell: xmllint --format /tmp/{{ podcastxml }} > {{ playbook_dir }}/{{ podcastxml }}
 
