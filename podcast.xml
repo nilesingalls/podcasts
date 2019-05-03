@@ -159,5 +159,20 @@
       <guid isPermaLink="true">https://archive.org/download/MYHISTORYWITHSMOKE050119/MY_HISTORY_WITH_SMOKE_05_01_19.mp3</guid>
       <enclosure url="https://archive.org/download/MYHISTORYWITHSMOKE050119/MY_HISTORY_WITH_SMOKE_05_01_19.mp3" length="26579614" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Antsy McClain</itunes:author>
+      <title>Episode Resisting Enlightenment #10 - What is Worthiness?</title>
+      <pubDate>2019-05-02T00:00:00Z</pubDate>
+      <description>Singer/songwriter Antsy McClain shares a favorite childhood memory of his father – and how he kinda screwed it up, as well as his thoughts on the contrived concept of "worthiness." Songs include "Don't Stop to Rest," I'm Gonna Be Happy If It Kills Me" and "No More Wishful Thinking." Find Antsy McClain's music, books and artwork at unhitched.com.</description>
+      <itunes:subtitle>The podcast that unwisely revisits those awkward moments that keep us up at night.</itunes:subtitle>
+      <itunes:summary>Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out</itunes:summary>
+      <itunes:category text="Arts">
+        <itunes:category text="Performing Arts"/>
+      </itunes:category>
+      <itunes:explicit>False</itunes:explicit>
+      <itunes:duration>24:43</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/EPISODE1005022019/EPISODE_10_05_02_2019.mp3</guid>
+      <enclosure url="https://archive.org/download/EPISODE1005022019/EPISODE_10_05_02_2019.mp3" length="23738327" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
