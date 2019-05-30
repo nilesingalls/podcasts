@@ -174,5 +174,20 @@
       <guid isPermaLink="true">https://archive.org/download/EPISODE1005022019/EPISODE_10_05_02_2019.mp3</guid>
       <enclosure url="https://archive.org/download/EPISODE1005022019/EPISODE_10_05_02_2019.mp3" length="23738327" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Antsy McClain</itunes:author>
+      <title>Resisting Enlightenment #11 Death</title>
+      <pubDate>2019-05-29T00:00:00Z</pubDate>
+      <description>Singer/songwriter Antsy McClain explores life and death, and more specifically, why some want to end their lives early by their own hand. McClain looks into many recent well-known celebrity suicides, and asks some heart-felt questions. Songs include "Right Side of the Dirt," "We're All Gonna Die" and "Drive Thru Life."</description>
+      <itunes:subtitle>The podcast that unwisely revisits those awkward moments that keep us up at night.</itunes:subtitle>
+      <itunes:summary>Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out</itunes:summary>
+      <itunes:category text="Arts">
+        <itunes:category text="Performing Arts"/>
+      </itunes:category>
+      <itunes:explicit>False</itunes:explicit>
+      <itunes:duration>29:43</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/DEATH051219/DEATH_05_12_19.mp3</guid>
+      <enclosure url="https://archive.org/download/DEATH051219/DEATH_05_12_19.mp3" length="28536917" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
