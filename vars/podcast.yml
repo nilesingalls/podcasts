@@ -4,7 +4,7 @@ podcastxml: podcast.xml
 archive:
   search_url: https://archive.org/advancedsearch.php
   download_url: https://archive.org/download
-  creator: dimitrisnowden
+  creator: snowden univrse
   description:
   title: Shift Gets Real
 # urlencode the copyright, maybe.
@@ -19,7 +19,7 @@ podcast:
     title: Shift Gets Real
     link: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/shift-gets-real-clear.png
 itunes:
-  subtitle: why i love you
+  subtitle: watch the #sgr podcast on shiftgetsreal.com
   summary: shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowden
   description: shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowden. a new episode will drop every wednesday! watch the #sgr podcast on shiftgetsreal.com
   author: Dimitri Snowden
