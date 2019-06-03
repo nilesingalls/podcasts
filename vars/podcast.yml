@@ -15,9 +15,9 @@ podcast:
   lang: en-us
   copyright: '&#xA9; Dimitri Snowden'
   image:
-    url: shift-gets-real-clear.png
+    url: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/shift-gets-real-clear.png
     title: Shift Gets Real
-    link: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/shift-gets-real-clear.png
+    link: https://shiftgetsreal.com
 itunes:
   subtitle: watch the #sgr podcast on shiftgetsreal.com
   summary: shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowden
