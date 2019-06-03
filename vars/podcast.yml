@@ -13,21 +13,21 @@ podcast:
   link: https://shiftgetsreal.com
   generator: https://github.com/nilesingalls/podcasts
   lang: en-us
-  copyright: '&#xA9; Hot Iron Entertainment'
+  copyright: '&#xA9; Dimitri Snowden'
   image:
     url: shift-gets-real-clear.png
     title: Shift Gets Real
-    link: https://shiftgetsreal.com
+    link: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/shift-gets-real-clear.png
 itunes:
   subtitle: why i love you
-  summary: shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowde
-  description: shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowde
+  summary: shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowden
+  description: shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowden. a new episode will drop every wednesday! watch the #sgr podcast on shiftgetsreal.com
   author: Dimitri Snowden
   owner:
     name: Dimitri Snowden
     email: dimitri@dimitrisnowden.com
   image:
-    url: shift-gets-real-clear.png
+    url: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/shift-gets-real-clear.png
   category:
     category: Arts
     text: Performing Arts
