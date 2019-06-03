@@ -15,7 +15,7 @@ podcast:
   lang: en-us
   copyright: '&#xA9; Dimitri Snowden'
   image:
-    url: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/shift-gets-real-clear.png
+    url: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/61644949_2132201450240807_2848398396329295872_n.png
     title: Shift Gets Real
     link: https://shiftgetsreal.com
 itunes:
@@ -27,7 +27,7 @@ itunes:
     name: Dimitri Snowden
     email: dimitri@dimitrisnowden.com
   image:
-    url: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/shift-gets-real-clear.png
+    url: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/61644949_2132201450240807_2848398396329295872_n.png
   category:
     category: Arts
     text: Performing Arts
