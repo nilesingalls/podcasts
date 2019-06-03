@@ -4,30 +4,30 @@ podcastxml: podcast.xml
 archive:
   search_url: https://archive.org/advancedsearch.php
   download_url: https://archive.org/download
-  creator: Antsy McClain
+  creator: dimitrisnowden
   description:
-  title: Resisting Enlightenment
+  title: Shift Gets Real
 # urlencode the copyright, maybe.
 podcast:
-  title: Resisting Enlightenment
-  link: http://unhitched.com
+  title: Shift Gets Real
+  link: https://shiftgetsreal.com
   generator: https://github.com/nilesingalls/podcasts
   lang: en-us
   copyright: '&#xA9; Hot Iron Entertainment'
   image:
-    url: https://raw.githubusercontent.com/nilesingalls/podcasts/master/images/itunes_image.jpg
-    title: Resisting Enlightenment
-    link: https://podcast.unhitched.com/
+    url: shift-gets-real-clear.png
+    title: Shift Gets Real
+    link: https://shiftgetsreal.com
 itunes:
-  subtitle: The podcast that unwisely revisits those awkward moments that keep us up at night.
-  summary: Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out
-  description: Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out
-  author: Antsy McClain
+  subtitle: why i love you
+  summary: shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowde
+  description: shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowde
+  author: Dimitri Snowden
   owner:
-    name: Antsy McClain
-    email: thetroubs@unhitched.com
+    name: Dimitri Snowden
+    email: dimitri@dimitrisnowden.com
   image:
-    url: https://raw.githubusercontent.com/nilesingalls/podcasts/master/images/itunes_image.jpg
+    url: shift-gets-real-clear.png
   category:
     category: Arts
     text: Performing Arts
