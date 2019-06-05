@@ -3,6 +3,13 @@
   template:
     src: templates/podcast.xml.j2
     dest: /tmp/{{ podcastxml }}
+  when: itunes.category.text != ''
+
+- name: start tmp podcast.xml file
+  template:
+    src: templates/podcast_sc.xml.j2
+    dest: /tmp/{{ podcastxml }}
+  when: itunes.category.text == ''
 
 - name: return search results from archive.org
   uri:
@@ -32,6 +39,8 @@
 
 #- name: fix my &
 #  shell: sed -i 's/\&amp;/\&/g' {{ playbook_dir }}/{{ podcastxml }}
+#  shell: sed -i 's/\ \&\ /\&amp;/g' {{ playbook_dir}}/{{ podcastxml }}
+
 - file:
     state: absent
     path: /tmp/{{ podcastxml }}
