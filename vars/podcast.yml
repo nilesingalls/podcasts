@@ -19,17 +19,17 @@ podcast:
     title: Shift Gets Real
     link: https://shiftgetsreal.com
 itunes:
-  subtitle: watch the #sgr podcast on shiftgetsreal.com
-  summary: shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowden
-  description: shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowden. a new episode will drop every wednesday! watch the #sgr podcast on shiftgetsreal.com
-  author: Ashley Snowden and Dimitri Snowden
+  subtitle: Shift Gets Real with Dimitri and Ashley Snowden
+  summary: Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.
+  description: Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley snowden.  New episode every Wednesday.
+  author: Dimitri Snowden &#38; Ashley Snowden
   owner:
-    name: Ashley Snowden and Dimitri Snowden
-    email: dimitri@dimitrisnowden.com
+    name: Dimitri Snowden &#38; Ashley Snowden
+    email: podcast@thesnowdenfamily.com
   image:
     url: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/61788105_2316443471942346_7946230543220211712_n.png
   category:
-    category: Arts
-    text: Performing Arts
-  explicit: no
+    category: Society &#38; Culture
+    text: Society &#38; Culture
+  explicit: yes
 
