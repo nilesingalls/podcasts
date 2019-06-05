@@ -4,7 +4,7 @@ podcastxml: podcast.xml
 archive:
   search_url: https://archive.org/advancedsearch.php
   download_url: https://archive.org/download
-  creator: snowden universe
+  creator: Dimitri Ashley Snowden
   description:
   title: Shift Gets Real
 # urlencode the copyright, maybe.

@@ -23,5 +23,20 @@
     <itunes:image href="https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/61788105_2316443471942346_7946230543220211712_n.png"/>
     <itunes:category text="Society &amp; Culture"> </itunes:category>
     <itunes:explicit>yes</itunes:explicit>
+    <item>
+      <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
+      <title>Shift Gets Real 101 - Why I Love You</title>
+      <pubDate>2019-06-04T00:00:00Z</pubDate>
+      <description>In this episode we talk about "Why I love You" and what it takes to stay INside of love!</description>
+      <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
+      <itunes:summary>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.</itunes:summary>
+      <itunes:category text="Society &amp; Culture">
+        <itunes:category text=""/>
+      </itunes:category>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>42:39</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/ShiftGetsReal101/shift%20gets%20real%20101.mp3</guid>
+      <enclosure url="https://archive.org/download/ShiftGetsReal101/shift%20gets%20real%20101.mp3" length="82160831" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
