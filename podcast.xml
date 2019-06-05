@@ -21,8 +21,8 @@
     </itunes:owner>
     <itunes:image href="https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/61788105_2316443471942346_7946230543220211712_n.png"/>
     <itunes:category text="Society &amp; Culture">
-      <itunes:category text="Society &amp; Culture"/>
+      <itunes:category text="Personal Journals"/>
     </itunes:category>
-    <itunes:explicit>True</itunes:explicit>
+    <itunes:explicit>yes</itunes:explicit>
   </channel>
 </rss>
