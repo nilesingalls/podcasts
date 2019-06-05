@@ -9,6 +9,7 @@ archive:
   title: Shift Gets Real
 # urlencode the copyright, maybe.
 podcast:
+  atom: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/podcast.xml
   title: Shift Gets Real
   link: https://shiftgetsreal.com
   generator: https://github.com/nilesingalls/podcasts
