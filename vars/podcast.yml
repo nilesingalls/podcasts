@@ -22,9 +22,9 @@ itunes:
   subtitle: Shift Gets Real with Dimitri and Ashley Snowden
   summary: Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.
   description: Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley snowden.  New episode every Wednesday.
-  author: 'Dimitri Snowden and Ashley Snowden'
+  author: 'Dimitri Snowden &amp; Ashley Snowden'
   owner:
-    name: 'Dimitri Snowden and Ashley Snowden'
+    name: 'Dimitri Snowden &amp; Ashley Snowden'
     email: podcast@thesnowdenfamily.com
   image:
     url: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/61788105_2316443471942346_7946230543220211712_n.png
