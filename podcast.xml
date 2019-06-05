@@ -14,14 +14,14 @@
     <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
     <itunes:summary>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.</itunes:summary>
     <description>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley snowden.  New episode every Wednesday.</description>
-    <itunes:author>Dimitri Snowden and Ashley Snowden</itunes:author>
+    <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
     <itunes:owner>
-      <itunes:name>Dimitri Snowden and Ashley Snowden</itunes:name>
+      <itunes:name>Dimitri Snowden &amp; Ashley Snowden</itunes:name>
       <itunes:email>podcast@thesnowdenfamily.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/61788105_2316443471942346_7946230543220211712_n.png"/>
-    <itunes:category text="Society & Culture">
-      <itunes:category text="Society & Culture"/>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Society &amp; Culture"/>
     </itunes:category>
     <itunes:explicit>True</itunes:explicit>
   </channel>
