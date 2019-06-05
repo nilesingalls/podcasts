@@ -24,5 +24,20 @@
       <itunes:category text="Performing Arts"/>
     </itunes:category>
     <itunes:explicit>False</itunes:explicit>
+    <item>
+      <itunes:author>Dimitri Snowden</itunes:author>
+      <title>Shift Gets Real 101 - Why I Love You</title>
+      <pubDate>2019-06-02T00:00:00Z</pubDate>
+      <description>shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowden. a new episode will drop every wednesday! watch the shift gets real  podcast on shiftgetsreal.com</description>
+      <itunes:subtitle>watch the</itunes:subtitle>
+      <itunes:summary>shift gets real with powerful and shifting conversations from the mindware of dimitri and ashley snowden</itunes:summary>
+      <itunes:category text="Arts">
+        <itunes:category text="Performing Arts"/>
+      </itunes:category>
+      <itunes:explicit>False</itunes:explicit>
+      <itunes:duration>42:39</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/ShiftGetsReal101/shift%20gets%20real%20101.mp3</guid>
+      <enclosure url="https://archive.org/download/ShiftGetsReal101/shift%20gets%20real%20101.mp3" length="82160831" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
