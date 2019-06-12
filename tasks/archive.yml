@@ -37,10 +37,6 @@
 - name: tidy xml for publication
   shell: xmllint --format /tmp/{{ podcastxml }} > {{ playbook_dir }}/{{ podcastxml }}
 
-#- name: fix my &
-#  shell: sed -i 's/\&amp;/\&/g' {{ playbook_dir }}/{{ podcastxml }}
-#  shell: sed -i 's/\ \&\ /\&amp;/g' {{ playbook_dir}}/{{ podcastxml }}
-
 - file:
     state: absent
     path: /tmp/{{ podcastxml }}
