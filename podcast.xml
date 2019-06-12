@@ -6,7 +6,7 @@
     <link>https://shiftgetsreal.com</link>
     <generator>https://github.com/nilesingalls/podcasts</generator>
     <language>en-us</language>
-    <copyright>%26%23xA9%3B%202019%20Snowden%20Universe</copyright>
+    <copyright>%C2%A9%20Snowden%20Universe</copyright>
     <image>
       <url>https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/61788105_2316443471942346_7946230543220211712_n.png</url>
       <title>Shift Gets Real</title>
@@ -37,6 +37,21 @@
       <itunes:duration>42:39</itunes:duration>
       <guid isPermaLink="true">https://archive.org/download/ShiftGetsReal101/shift%20gets%20real%20101.mp3</guid>
       <enclosure url="https://archive.org/download/ShiftGetsReal101/shift%20gets%20real%20101.mp3" length="82160831" type="audio/mpeg"/>
+    </item>
+    <item>
+      <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
+      <title>Shift Gets Real 102: Culture, Blackness and Utter Confusion!</title>
+      <pubDate>2019-06-12T00:00:00Z</pubDate>
+      <description>The differences between race, culture and ethnicity were learned the hard way! This weeks episode @dimitrisnowden and @ashleyksnowden talk about family culture, blackness and utter confusion! Our friend Nichole at @africanancestry can help clear this up!</description>
+      <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
+      <itunes:summary>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.</itunes:summary>
+      <itunes:category text="Society &amp; Culture">
+        <itunes:category text=""/>
+      </itunes:category>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>35:16</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/ShiftGetsReal102CultureBlacknessAndUtterConfusion/shift%20gets%20real%20102.mp3</guid>
+      <enclosure url="https://archive.org/download/ShiftGetsReal102CultureBlacknessAndUtterConfusion/shift%20gets%20real%20102.mp3" length="68870160" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>

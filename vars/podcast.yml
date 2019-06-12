@@ -14,7 +14,7 @@ podcast:
   link: https://shiftgetsreal.com
   generator: https://github.com/nilesingalls/podcasts
   lang: en-us
-  copyright: "&#xA9; {{ ansible_date_time.year }} Snowden Universe"
+  copyright: © Snowden Universe
   image:
     url: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/images/61788105_2316443471942346_7946230543220211712_n.png
     title: Shift Gets Real
