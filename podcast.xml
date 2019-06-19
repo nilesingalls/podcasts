@@ -53,5 +53,20 @@
       <guid isPermaLink="true">https://archive.org/download/ShiftGetsReal102CultureBlacknessAndUtterConfusion/shift%20gets%20real%20102.mp3</guid>
       <enclosure url="https://archive.org/download/ShiftGetsReal102CultureBlacknessAndUtterConfusion/shift%20gets%20real%20102.mp3" length="68870160" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
+      <title>Shift Gets Real 103: Infidelity</title>
+      <pubDate>2019-06-19T00:00:00Z</pubDate>
+      <description>This weeks episode @dimitrisnowden and @ashleyksnowden talk about one of the most taboo subjects in relationships and marriages - infidelity  Find out the Snowdens shifted through it!</description>
+      <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
+      <itunes:summary>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.</itunes:summary>
+      <itunes:category text="Society &amp; Culture">
+        <itunes:category text=""/>
+      </itunes:category>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>50:45</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/ShiftGetsReal103Infidelity/sgr%20103%20final.mp3</guid>
+      <enclosure url="https://archive.org/download/ShiftGetsReal103Infidelity/sgr%20103%20final.mp3" length="99299867" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
