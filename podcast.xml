@@ -83,5 +83,20 @@
       <guid isPermaLink="true">https://archive.org/download/shiftgetsreal104parentingdaybyday/Shift%20Gets%20Real%20104%20-%20We%20Make%20Parenting%20Up.mp3</guid>
       <enclosure url="https://archive.org/download/shiftgetsreal104parentingdaybyday/Shift%20Gets%20Real%20104%20-%20We%20Make%20Parenting%20Up.mp3" length="130461516" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
+      <title>Shift Gets Real 105: Why The F*** We Chose Polygamy</title>
+      <pubDate>2019-07-03T00:00:00Z</pubDate>
+      <description>This weeks episode @dimitrisnowden and @ashleyksnowden talk about why the f*** they chose polygamy and clear up the misconceptions!</description>
+      <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
+      <itunes:summary>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.</itunes:summary>
+      <itunes:category text="Society &amp; Culture">
+        <itunes:category text=""/>
+      </itunes:category>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>01:06:52</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/shiftgetsreal105whythefwechosepolygamy/Why%20The%20F%2A%2A%2A%20We%20Chose%20Polygamy.mp3</guid>
+      <enclosure url="https://archive.org/download/shiftgetsreal105whythefwechosepolygamy/Why%20The%20F%2A%2A%2A%20We%20Chose%20Polygamy.mp3" length="130890217" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
