@@ -98,5 +98,20 @@
       <guid isPermaLink="true">https://archive.org/download/shiftgetsreal105whythefwechosepolygamy/Why%20The%20F%2A%2A%2A%20We%20Chose%20Polygamy.mp3</guid>
       <enclosure url="https://archive.org/download/shiftgetsreal105whythefwechosepolygamy/Why%20The%20F%2A%2A%2A%20We%20Chose%20Polygamy.mp3" length="130890217" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
+      <title>Shift Gets Real 106: Spirituality - Lost And Found</title>
+      <pubDate>2019-07-10T00:00:00Z</pubDate>
+      <description>This weeks @shiftgetsreal episode @dimitrisnowden and @ashleyksnowden talk about their experiences with religion and their perspectives on spirituality.</description>
+      <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
+      <itunes:summary>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.</itunes:summary>
+      <itunes:category text="Society &amp; Culture">
+        <itunes:category text=""/>
+      </itunes:category>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>01:10:18</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/shiftgetsreal106spiritualitylostandfound/Shift%20Gets%20Real%20106%20Spirituality%20-%20Lost%20and%20Found.mp3</guid>
+      <enclosure url="https://archive.org/download/shiftgetsreal106spiritualitylostandfound/Shift%20Gets%20Real%20106%20Spirituality%20-%20Lost%20and%20Found.mp3" length="137774526" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
