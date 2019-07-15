@@ -204,5 +204,20 @@
       <guid isPermaLink="true">https://archive.org/download/EPISODE11NASHVILLEFIELDTRIP6161910.08AM/EPISODE%2011%20-%20NASHVILLE%20FIELD%20TRIP%20-%206%3A16%3A19%2C%2010.08%20AM.mp3</guid>
       <enclosure url="https://archive.org/download/EPISODE11NASHVILLEFIELDTRIP6161910.08AM/EPISODE%2011%20-%20NASHVILLE%20FIELD%20TRIP%20-%206%3A16%3A19%2C%2010.08%20AM.mp3" length="28838266" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Antsy McClain</itunes:author>
+      <title>Resisting Enlightenment #13 - Road Tripping 6/16/19</title>
+      <pubDate>2019-07-13T00:00:00Z</pubDate>
+      <description>Singer/songwriter Antsy McClain shares conversations from a recent road trip with talented Nashville musicians Myles Thompson and Chris "Spoons" Long. They talk about life, music and the intestinal fortitude it takes to go on the road. Songs include "Larry Anne," "Time Machine," "Don't Stop to Rest" and "Drive Thru Life."</description>
+      <itunes:subtitle>The podcast that unwisely revisits those awkward moments that keep us up at night.</itunes:subtitle>
+      <itunes:summary>Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out</itunes:summary>
+      <itunes:category text="Arts">
+        <itunes:category text="Performing Arts"/>
+      </itunes:category>
+      <itunes:explicit>False</itunes:explicit>
+      <itunes:duration>35:06</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/episode13roadtripping713192.16pm/EPISODE%2013%20-%20ROAD%20TRIPPING%20-%207%3A13%3A19%2C%202.16%20PM.mp3</guid>
+      <enclosure url="https://archive.org/download/episode13roadtripping713192.16pm/EPISODE%2013%20-%20ROAD%20TRIPPING%20-%207%3A13%3A19%2C%202.16%20PM.mp3" length="33699967" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
