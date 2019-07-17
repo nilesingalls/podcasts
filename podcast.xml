@@ -113,5 +113,20 @@
       <guid isPermaLink="true">https://archive.org/download/shiftgetsreal106spiritualitylostandfound/Shift%20Gets%20Real%20106%20Spirituality%20-%20Lost%20and%20Found.mp3</guid>
       <enclosure url="https://archive.org/download/shiftgetsreal106spiritualitylostandfound/Shift%20Gets%20Real%20106%20Spirituality%20-%20Lost%20and%20Found.mp3" length="137774526" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
+      <title>Shift Gets Real 107: Food, Fitness, And No F***ing Excuses</title>
+      <pubDate>2019-07-16T00:00:00Z</pubDate>
+      <description>This weeks @shiftgetsreal episode @dimitrisnowden and @ashleyksnowden talk about diet and fitness!</description>
+      <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
+      <itunes:summary>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.</itunes:summary>
+      <itunes:category text="Society &amp; Culture">
+        <itunes:category text=""/>
+      </itunes:category>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>01:12:41</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/shiftgetsreal107foodfitnessandnofingexcuses/Shift%20Gets%20Real%20107%20-%20Food%2C%20Fitness%2C%20and%20no%20F%2A%2A%2Aing%20Excuses%20.mp3</guid>
+      <enclosure url="https://archive.org/download/shiftgetsreal107foodfitnessandnofingexcuses/Shift%20Gets%20Real%20107%20-%20Food%2C%20Fitness%2C%20and%20no%20F%2A%2A%2Aing%20Excuses%20.mp3" length="142445829" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
