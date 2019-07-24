@@ -128,5 +128,20 @@
       <guid isPermaLink="true">https://archive.org/download/shiftgetsreal107foodfitnessandnofingexcuses/Shift%20Gets%20Real%20107%20-%20Food%2C%20Fitness%2C%20and%20no%20F%2A%2A%2Aing%20Excuses%20.mp3</guid>
       <enclosure url="https://archive.org/download/shiftgetsreal107foodfitnessandnofingexcuses/Shift%20Gets%20Real%20107%20-%20Food%2C%20Fitness%2C%20and%20no%20F%2A%2A%2Aing%20Excuses%20.mp3" length="142445829" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
+      <title>Shift Gets Real 108: Gender Wars And Why Love Is Not Enough</title>
+      <pubDate>2019-07-24T00:00:00Z</pubDate>
+      <description>This weeks @shiftgetsreal episode @dimitrisnowden and @ashleyksnowden talk about gender wars and how love ain’t enough!</description>
+      <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
+      <itunes:summary>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.</itunes:summary>
+      <itunes:category text="Society &amp; Culture">
+        <itunes:category text=""/>
+      </itunes:category>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>01:14:44</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/shiftgetsreal108genderwarsandwhyloveisnotenough/Shift%20Gets%20Real%20108%20-%20Gender%20Wars%20and%20Why%20Love%20is%20Not%20Enough.mp3</guid>
+      <enclosure url="https://archive.org/download/shiftgetsreal108genderwarsandwhyloveisnotenough/Shift%20Gets%20Real%20108%20-%20Gender%20Wars%20and%20Why%20Love%20is%20Not%20Enough.mp3" length="146262284" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>

@@ -18,7 +18,7 @@
     status_code: 200
     body_format: json
   register: archive
-
+- debug: msg="{{ archive }}"
 # grab media locally to extract metadata.  (no id3 tags)
 - name: populate podcast items
   include: tasks/getpod.yml
