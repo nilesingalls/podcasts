@@ -7,6 +7,8 @@ archive:
   creator: Dimitri Ashley Snowden
   description:
   title: Shift Gets Real
+  report_email: niles@atheos.net
+
 # urlencode the copyright, maybe.
 podcast:
   atom: https://raw.githubusercontent.com/nilesingalls/podcasts/shiftgetsreal/podcast.xml

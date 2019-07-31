@@ -31,7 +31,7 @@
     line: |
       <item>
         <itunes:author>{{ itunes.author }}</itunes:author>
-          <title>{{ item.title }}</title>
+          <title>{{ item.title|e }}</title>
           <pubDate>{{ item.date }}</pubDate>
           <description>{{ item.description|e }}</description>
           <itunes:subtitle>{{ itunes.subtitle }}</itunes:subtitle>

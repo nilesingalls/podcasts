@@ -18,7 +18,33 @@
     status_code: 200
     body_format: json
   register: archive
-- debug: msg="{{ archive }}"
+
+
+#- debug: msg="{{ item }}"
+#  loop: "{{ archive.json.response.docs }}"
+#- meta: end_play
+
+- name: build some download stats
+  set_fact:
+    downloads: "{{ downloads | default() }} + 'Description: {{ item.description }} - Downloads: {{ item.downloads }}\n'"
+  loop: "{{ archive.json.response.docs }}"
+
+#- debug: msg="{{ downloads }}"
+#- meta: end_play
+
+#- name: message someone with statistics
+#  mail:
+#    headers:
+##    host: "192.168.2.7"
+#    host: localhost
+#    from: "noreply@ingalls.biz"
+#    to: "niles@atheos.net"
+#    subject: "archive status for podcast"
+#    body: "testing"
+##    body: "{{ downloads }}"
+
+#- meta: end_play
+
 # grab media locally to extract metadata.  (no id3 tags)
 - name: populate podcast items
   include: tasks/getpod.yml
