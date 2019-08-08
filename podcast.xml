@@ -145,7 +145,7 @@
     </item>
     <item>
       <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
-      <title>Shift Gets Real 109 When Kids Travel, Play &amp; Cock Block</title>
+      <title>Shift Gets Real 109: When Kids Travel, Play &amp; Cock Block</title>
       <pubDate>2019-07-31T00:00:00Z</pubDate>
       <description>This weeks @shiftgetsreal episode @dimitrisnowden and @ashleyksnowden talk about when kids travel, play and cock block!</description>
       <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
@@ -157,6 +157,21 @@
       <itunes:duration>01:16:32</itunes:duration>
       <guid isPermaLink="true">https://archive.org/download/shiftgetsreal109whenkidstravelplaycockblock/Shift%20Gets%20Real%20109%20-%20When%20Kids%20Travel%2C%20Play%20%26%20Cock%20Block.mp3</guid>
       <enclosure url="https://archive.org/download/shiftgetsreal109whenkidstravelplaycockblock/Shift%20Gets%20Real%20109%20-%20When%20Kids%20Travel%2C%20Play%20%26%20Cock%20Block.mp3" length="149711248" type="audio/mpeg"/>
+    </item>
+    <item>
+      <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
+      <title>Shift Gets Real 110: Fans Hold Nothing Back</title>
+      <pubDate>2019-08-07T00:00:00Z</pubDate>
+      <description>this weeks @shiftgetsreal episode @dimitrisnowden and @ashleyksnowden chat with fans and they nothing back!</description>
+      <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
+      <itunes:summary>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.</itunes:summary>
+      <itunes:category text="Society &amp; Culture">
+        <itunes:category text=""/>
+      </itunes:category>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>01:15:39</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/shiftgetsreal110fansholdnothingback/Shift%20Gets%20Real%20110%20-%20Fans%20Hold%20Nothing%20Back%20.mp3</guid>
+      <enclosure url="https://archive.org/download/shiftgetsreal110fansholdnothingback/Shift%20Gets%20Real%20110%20-%20Fans%20Hold%20Nothing%20Back%20.mp3" length="147683450" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>
