@@ -17,8 +17,8 @@
     downloads: "{{ downloads | default() }} + 'Description: {{ item.description }} - Downloads: {{ item.downloads }}\n'"
   loop: "{{ archive.json.response.docs }}"
 
-- debug: msg="{{ downloads }}"
-- meta: end_play
+#- debug: msg="{{ downloads }}"
+#- meta: end_play
 
 # grab media locally to extract metadata.  (no id3 tags)
 - name: populate podcast items
