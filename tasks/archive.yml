@@ -6,7 +6,7 @@
 
 - name: return search results from archive.org
   uri:
-    url: '{{ archive.search_url }}?q=creator:({{ archive.creator|replace(" ", "+") }}) AND title:({{ archive.title|replace(" ", "+") }})&output=json&sort[]=date asc'
+    url: '{{ archive.search_url }}?q=creator:({{ archive.creator|replace(" ", "+") }})%20AND%20title:({{ archive.title|replace(" ", "+") }})&output=json&sort[]=date%20asc'
     method: GET
     status_code: 200
     body_format: json

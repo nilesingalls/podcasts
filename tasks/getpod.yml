@@ -26,6 +26,9 @@
   shell: ls -lrt {{ playbook_dir }}/podcasts/{{ mp3.stdout }} 2>/dev/null | nawk '{print $5}'
   register: size
 
+#- name: zero out the podcast file to save space
+#  shell: true > {{ playbook_dir }}/podcasts/{{ mp3.stdout }}
+
 - lineinfile:
     path: /tmp/{{ podcastxml }}
     line: |
