@@ -234,5 +234,20 @@
       <guid isPermaLink="true">https://archive.org/download/episode14moreroadtripping81319/EPISODE%2014%20-%20MORE%20ROAD%20TRIPPING%20-%208%3A6%3A19%2C%203.40%20PM.mp3</guid>
       <enclosure url="https://archive.org/download/episode14moreroadtripping81319/EPISODE%2014%20-%20MORE%20ROAD%20TRIPPING%20-%208%3A6%3A19%2C%203.40%20PM.mp3" length="31402445" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Antsy McClain</itunes:author>
+      <title>Resisting Enlightenment #15 MY BUDDY NILES 10: 8: 19, 11.13 AM</title>
+      <pubDate>2019-10-08T00:00:00Z</pubDate>
+      <description>Antsy McClain talks with his neighbor, friend and webmaster, Niles Ingalls about life, technology and ice cream. Songs include "The Blah Blah Song," "Seems Like Old Times" and "In a Class All by Myself" from his very fist album, a demo recording made in 1993. </description>
+      <itunes:subtitle>The podcast that unwisely revisits those awkward moments that keep us up at night.</itunes:subtitle>
+      <itunes:summary>Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out</itunes:summary>
+      <itunes:category text="Arts">
+        <itunes:category text="Performing Arts"/>
+      </itunes:category>
+      <itunes:explicit>False</itunes:explicit>
+      <itunes:duration>29:13</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/episode15mybuddyniles1081911.13am/EPISODE%2015%20-%20MY%20BUDDY%20NILES%20-%2010%3A8%3A19%2C%2011.13%20AM.mp3</guid>
+      <enclosure url="https://archive.org/download/episode15mybuddyniles1081911.13am/EPISODE%2015%20-%20MY%20BUDDY%20NILES%20-%2010%3A8%3A19%2C%2011.13%20AM.mp3" length="28057936" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
