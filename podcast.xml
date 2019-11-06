@@ -34,7 +34,7 @@
         <itunes:category text=""/>
       </itunes:category>
       <itunes:explicit>yes</itunes:explicit>
-      <itunes:duration>42:39</itunes:duration>
+      <itunes:duration/>
       <guid isPermaLink="true">https://archive.org/download/ShiftGetsReal101/shift%20gets%20real%20101.mp3</guid>
       <enclosure url="https://archive.org/download/ShiftGetsReal101/shift%20gets%20real%20101.mp3" length="82160831" type="audio/mpeg"/>
     </item>
@@ -49,7 +49,7 @@
         <itunes:category text=""/>
       </itunes:category>
       <itunes:explicit>yes</itunes:explicit>
-      <itunes:duration>35:16</itunes:duration>
+      <itunes:duration/>
       <guid isPermaLink="true">https://archive.org/download/ShiftGetsReal102CultureBlacknessAndUtterConfusion/shift%20gets%20real%20102.mp3</guid>
       <enclosure url="https://archive.org/download/ShiftGetsReal102CultureBlacknessAndUtterConfusion/shift%20gets%20real%20102.mp3" length="68870160" type="audio/mpeg"/>
     </item>
@@ -64,7 +64,7 @@
         <itunes:category text=""/>
       </itunes:category>
       <itunes:explicit>yes</itunes:explicit>
-      <itunes:duration>50:45</itunes:duration>
+      <itunes:duration/>
       <guid isPermaLink="true">https://archive.org/download/ShiftGetsReal103Infidelity/sgr%20103%20final.mp3</guid>
       <enclosure url="https://archive.org/download/ShiftGetsReal103Infidelity/sgr%20103%20final.mp3" length="99299867" type="audio/mpeg"/>
     </item>
@@ -172,6 +172,21 @@
       <itunes:duration>01:15:39</itunes:duration>
       <guid isPermaLink="true">https://archive.org/download/shiftgetsreal110fansholdnothingback/Shift%20Gets%20Real%20110%20-%20Fans%20Hold%20Nothing%20Back%20.mp3</guid>
       <enclosure url="https://archive.org/download/shiftgetsreal110fansholdnothingback/Shift%20Gets%20Real%20110%20-%20Fans%20Hold%20Nothing%20Back%20.mp3" length="147683450" type="audio/mpeg"/>
+    </item>
+    <item>
+      <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
+      <title>Shift Gets Real 201: What's Inner Fitness and How to Get Over Sh%t!</title>
+      <pubDate>2019-11-06T00:00:00Z</pubDate>
+      <description>We're back with another hot season of Shift Gets Real! This weeks @shiftgetsreal episode @dimitrisnowden and @ashleyksnowden chat with Tina Lifford from Queen Sugar about her book "Little Book of Big Lies" The idea of Inner Fitness is key to self worth, self love and gratitude. Pre-order her book now on Amazon! https://www.amazon.com/dp/0062930281/ref=cm_sw_su_dp?tag=harpercollinsus-20  📺 watch the #sgr podcast on youtube and shiftgetsreal.com 🎧 listen to the #sgr the podcast on itunes, spotify, google play and stitcher.</description>
+      <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
+      <itunes:summary>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.</itunes:summary>
+      <itunes:category text="Society &amp; Culture">
+        <itunes:category text=""/>
+      </itunes:category>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>01:32:40</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/shiftgetsreal201whatsinnerfitnessandhowdoigetoversht/sgr%20201.mp3</guid>
+      <enclosure url="https://archive.org/download/shiftgetsreal201whatsinnerfitnessandhowdoigetoversht/sgr%20201.mp3" length="180868913" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>
