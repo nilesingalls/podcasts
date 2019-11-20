@@ -203,5 +203,20 @@
       <guid isPermaLink="true">https://archive.org/download/shiftgetsreal202livingwithstrangersandmissinggratitude/sgr%20-%20candance%20new.mp3</guid>
       <enclosure url="https://archive.org/download/shiftgetsreal202livingwithstrangersandmissinggratitude/sgr%20-%20candance%20new.mp3" length="139513023" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Dimitri Snowden &amp; Ashley Snowden</itunes:author>
+      <title>Shift Gets Real 203: Skin Care Secrets, the Heart and Business!</title>
+      <pubDate>2019-11-20T00:00:00Z</pubDate>
+      <description>This weeks @shiftgetsreal episode @dimitrisnowden and @ashleyksnowden chat with skin care guru Adina Diaz Adina Diaz of @natural_feeling_spa  about skin care secrets, matters of the heart and business!</description>
+      <itunes:subtitle>Shift Gets Real with Dimitri and Ashley Snowden</itunes:subtitle>
+      <itunes:summary>Shift Gets Real with powerful and shifting conversations from the mindware of Dimitri and Ashley Snowden. New episode every Wednesday.</itunes:summary>
+      <itunes:category text="Society &amp; Culture">
+        <itunes:category text=""/>
+      </itunes:category>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>01:23:37</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/shiftgetsreal203skincaresecretstheheartandbusiness/sgr%20-%20adina.mp3</guid>
+      <enclosure url="https://archive.org/download/shiftgetsreal203skincaresecretstheheartandbusiness/sgr%20-%20adina.mp3" length="163692739" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
