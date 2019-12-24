@@ -249,5 +249,20 @@
       <guid isPermaLink="true">https://archive.org/download/episode16whyilikefootball1281910.49am/EPISODE%2016%20-%20WHY%20I%20LIKE%20FOOTBALL%20-%2012%3A8%3A19%2C%2010.49%20AM.mp3</guid>
       <enclosure url="https://archive.org/download/episode16whyilikefootball1281910.49am/EPISODE%2016%20-%20WHY%20I%20LIKE%20FOOTBALL%20-%2012%3A8%3A19%2C%2010.49%20AM.mp3" length="27046057" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Antsy McClain</itunes:author>
+      <title>Resisting Enlightenment Episode #17: How I Write a Song 12_24_19</title>
+      <pubDate>2019-12-24T00:00:00Z</pubDate>
+      <description>Singer/songwriter Antsy McClain shares his creative process, from first idea to finished song. Using clips from his iPhone voice memo app, Antsy gives you his step-by-step writing method and introduces a new song, "Yard Sale Saturday." Other songs include "Having a Good Time Tonight" and "The Folkabilly Shuffle."</description>
+      <itunes:subtitle>The podcast that unwisely revisits those awkward moments that keep us up at night.</itunes:subtitle>
+      <itunes:summary>Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out</itunes:summary>
+      <itunes:category text="Arts">
+        <itunes:category text="Performing Arts"/>
+      </itunes:category>
+      <itunes:explicit>False</itunes:explicit>
+      <itunes:duration/>
+      <guid isPermaLink="true">https://archive.org/download/howiwriteasong12719/HOW%20I%20WRITE%20A%20SONG%20-%2012%3A7%3A19.mp3</guid>
+      <enclosure url="https://archive.org/download/howiwriteasong12719/HOW%20I%20WRITE%20A%20SONG%20-%2012%3A7%3A19.mp3" length="25963124" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
