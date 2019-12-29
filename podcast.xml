@@ -264,5 +264,20 @@
       <guid isPermaLink="true">https://archive.org/download/howiwriteasong12719/HOW%20I%20WRITE%20A%20SONG%20-%2012%3A7%3A19.mp3</guid>
       <enclosure url="https://archive.org/download/howiwriteasong12719/HOW%20I%20WRITE%20A%20SONG%20-%2012%3A7%3A19.mp3" length="25963124" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Antsy McClain</itunes:author>
+      <title>Resisting Enlightenment Episode 18: STUFF OUR DADS USED TO SAY 12_29_2019</title>
+      <pubDate>2019-12-29T00:00:00Z</pubDate>
+      <description>Singer/songwriter Antsy McClain goes down the memory lane of his childhood recalling his father's catch phrases, things he picked up from the pop culture of the 50's and 60's; phrases that are all but gone now. Antsy also recalls the songs his father would sing around the house, and one song his mother sang to him as a child, which created a generational favorite. Antsy shares his never-before-released song, "A Hundred Years."</description>
+      <itunes:subtitle>The podcast that unwisely revisits those awkward moments that keep us up at night.</itunes:subtitle>
+      <itunes:summary>Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out</itunes:summary>
+      <itunes:category text="Arts">
+        <itunes:category text="Performing Arts"/>
+      </itunes:category>
+      <itunes:explicit>False</itunes:explicit>
+      <itunes:duration/>
+      <guid isPermaLink="true">https://archive.org/download/episode18stuffourdadsusedtosay12291912.12pm/EPISODE%2018%20-%20STUFF%20OUR%20DADS%20USED%20TO%20SAY%20-%2012%3A29%3A19%2C%2012.12%20PM.mp3</guid>
+      <enclosure url="https://archive.org/download/episode18stuffourdadsusedtosay12291912.12pm/EPISODE%2018%20-%20STUFF%20OUR%20DADS%20USED%20TO%20SAY%20-%2012%3A29%3A19%2C%2012.12%20PM.mp3" length="19720486" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
