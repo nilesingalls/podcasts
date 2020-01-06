@@ -279,5 +279,20 @@
       <guid isPermaLink="true">https://archive.org/download/episode18stuffourdadsusedtosay12291912.12pm/EPISODE%2018%20-%20STUFF%20OUR%20DADS%20USED%20TO%20SAY%20-%2012%3A29%3A19%2C%2012.12%20PM.mp3</guid>
       <enclosure url="https://archive.org/download/episode18stuffourdadsusedtosay12291912.12pm/EPISODE%2018%20-%20STUFF%20OUR%20DADS%20USED%20TO%20SAY%20-%2012%3A29%3A19%2C%2012.12%20PM.mp3" length="19720486" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Antsy McClain</itunes:author>
+      <title>Resisting Enlightenment Episode 19: What's So Bad About Comfort Zones? 1_4_2020</title>
+      <pubDate>2020-01-04T00:00:00Z</pubDate>
+      <description>Singer/songwriter Antsy McClain explores how living in bubbles and comfort zones are dangerous to our health, citing how Amish and rogue Mormon communities are isolating themselves at their own peril. It's the same with our creative lives. Songs include "Another Happy Song," "Lillian" and "Joan Rivers."</description>
+      <itunes:subtitle>The podcast that unwisely revisits those awkward moments that keep us up at night.</itunes:subtitle>
+      <itunes:summary>Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out</itunes:summary>
+      <itunes:category text="Arts">
+        <itunes:category text="Performing Arts"/>
+      </itunes:category>
+      <itunes:explicit>False</itunes:explicit>
+      <itunes:duration/>
+      <guid isPermaLink="true">https://archive.org/download/episode19whatssobadaboutcomfortzones142010.01am/EPISODE%2019%20-%20WHAT%27S%20SO%20BAD%20ABOUT%20COMFORT%20ZONES%3F%20-%201%3A4%3A20%2C%2010.01%20AM.mp3</guid>
+      <enclosure url="https://archive.org/download/episode19whatssobadaboutcomfortzones142010.01am/EPISODE%2019%20-%20WHAT%27S%20SO%20BAD%20ABOUT%20COMFORT%20ZONES%3F%20-%201%3A4%3A20%2C%2010.01%20AM.mp3" length="25604097" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
