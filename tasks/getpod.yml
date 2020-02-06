@@ -3,31 +3,46 @@
   shell: wget -qO- https://archive.org/download/{{ item.identifier }} | grep mp3 | sed -n 's/.*href="\([^"]*\).*/\1/p'
   register: mp3
 
-- name: get podcast info
-  uri:
-    url: https://archive.org/download/{{ item.identifier }}/{{ mp3.stdout }}
-    method: GET
-    status_code: 200
-    body_format: json
-    creates: '{{ playbook_dir }}/podcasts/{{ mp3.stdout }}'
-    dest: '{{ playbook_dir }}/podcasts/{{ mp3.stdout }}'
+- name: look for previously obtained information
+  stat:
+    path: "{{ playbook_dir }}/podcasts/{{ mp3.stdout }}.yml"
+  register: previous
 
-- name: acquire podcast duration
-  shell: eyeD3 -Q {{ playbook_dir }}/podcasts/{{ mp3.stdout }} 2>/dev/null | grep -o '[0-2][0-9]:[0-5][0-9]:[0-5][0-9]'
-  ignore_errors: yes
-  register: duration
+- block:
 
-- name: acquire podcast duration
-  shell: eyeD3 -Q {{ playbook_dir }}/podcasts/{{ mp3.stdout }} 2>/dev/null | grep -o '[0-5][0-9]:[0-5][0-9]'
-  register: "{{ 'duration' if duration.failed == true }}"
-  when: duration.failed == true
+    - name: get podcast info
+      uri:
+        url: https://archive.org/download/{{ item.identifier }}/{{ mp3.stdout }}
+        method: GET
+        status_code: 200
+        body_format: json
+        creates: '{{ playbook_dir }}/podcasts/{{ mp3.stdout }}'
+        dest: '{{ playbook_dir }}/podcasts/{{ mp3.stdout }}'
 
-- name: acquire podcast size
-  shell: ls -lrt {{ playbook_dir }}/podcasts/{{ mp3.stdout }} 2>/dev/null | nawk '{print $5}'
-  register: size
+    - name: acquire podcast duration
+      shell: eyeD3 -Q {{ playbook_dir }}/podcasts/{{ mp3.stdout }} 2>/dev/null | grep -o '[0-2]\?[0-9]\?:\?[0-5][0-9]:[0-5][0-9]'
+      ignore_errors: yes
+      register: pcduration
 
-#- name: zero out the podcast file to save space
-#  shell: true > {{ playbook_dir }}/podcasts/{{ mp3.stdout }}
+    - name: acquire podcast size
+      shell: ls -lrt {{ playbook_dir }}/podcasts/{{ mp3.stdout }} 2>/dev/null | nawk '{print $5}'
+      register: pcsize
+
+    - name: write podcast info into a file for use on subsiquent runs.
+      lineinfile:
+        path: "{{ playbook_dir }}/podcasts/{{ mp3.stdout }}.yml"
+        state: present
+        line: "duration: '{{ pcduration.stdout }}'\nsize: '{{ pcsize.stdout }}'"
+        create: yes
+
+    - name: zero out the podcast file to save space
+      shell: true > {{ playbook_dir }}/podcasts/{{ mp3.stdout }}
+
+  when: previous.stat.exists == false
+
+- include_vars:
+    dir: "{{ playbook_dir }}/podcasts"
+    files_matching: "{{ mp3.stdout }}.yml"
 
 - lineinfile:
     path: /tmp/{{ podcastxml }}
@@ -43,7 +58,7 @@
             <itunes:category text="{{ itunes.category.text }}"/>
           </itunes:category>
         <itunes:explicit>{{ itunes.explicit }}</itunes:explicit>
-        <itunes:duration>{{ duration.stdout }}</itunes:duration>
+        <itunes:duration>{{ duration }}</itunes:duration>
         <guid isPermaLink="true">https://archive.org/download/{{ item.identifier }}/{{ mp3.stdout }}</guid>
-        <enclosure url="https://archive.org/download/{{ item.identifier }}/{{ mp3.stdout }}" length="{{ size.stdout }}" type="audio/mpeg" />
+        <enclosure url="https://archive.org/download/{{ item.identifier }}/{{ mp3.stdout }}" length="{{ size }}" type="audio/mpeg" />
       </item>
