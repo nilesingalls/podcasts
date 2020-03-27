@@ -294,5 +294,35 @@
       <guid isPermaLink="true">https://archive.org/download/episode19whatssobadaboutcomfortzones142010.01am/EPISODE%2019%20-%20WHAT%27S%20SO%20BAD%20ABOUT%20COMFORT%20ZONES%3F%20-%201%3A4%3A20%2C%2010.01%20AM.mp3</guid>
       <enclosure url="https://archive.org/download/episode19whatssobadaboutcomfortzones142010.01am/EPISODE%2019%20-%20WHAT%27S%20SO%20BAD%20ABOUT%20COMFORT%20ZONES%3F%20-%201%3A4%3A20%2C%2010.01%20AM.mp3" length="25604097" type="audio/mpeg"/>
     </item>
+    <item>
+      <itunes:author>Antsy McClain</itunes:author>
+      <title>Resisting Enlightenment Episode 20: Misfits</title>
+      <pubDate>2020-03-26T00:00:00Z</pubDate>
+      <description>Antsy McClain talks about the band Misfits, Marilyn Monroe's last film, The Misfits, and talks with his wife, Deana Lynn and neighbor Niles Andrew Ingalls about what really causes us to be misfits. Also included in this episode is the poetry of Dylan Thomas, the classic magazine Famous Monsters, and Antsy's songs, "A Better Past," "My Own Skin" and "I'm Everyone." A new song, "The Program" is also introduced and shared for the first time.</description>
+      <itunes:subtitle>The podcast that unwisely revisits those awkward moments that keep us up at night.</itunes:subtitle>
+      <itunes:summary>Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out</itunes:summary>
+      <itunes:category text="Arts">
+        <itunes:category text="Performing Arts"/>
+      </itunes:category>
+      <itunes:explicit>False</itunes:explicit>
+      <itunes:duration>43:59</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/episode20misfits222208.37pm/EPISODE%2020%20-%20MISFITS%20-%202%3A22%3A20%2C%208.37%20PM.mp3</guid>
+      <enclosure url="https://archive.org/download/episode20misfits222208.37pm/EPISODE%2020%20-%20MISFITS%20-%202%3A22%3A20%2C%208.37%20PM.mp3" length="42227171" type="audio/mpeg"/>
+    </item>
+    <item>
+      <itunes:author>Antsy McClain</itunes:author>
+      <title>Resisting Enlightenment Episode 21: Rusty and The Guitar</title>
+      <pubDate>2020-03-26T22:47:31Z</pubDate>
+      <description>Antsy McClain recalls his stepfather's love for acoustic guitar music, and wanders down a path of honor, pain and loss as he pays tribute to one of the most decent, but most complicated men he has ever known. Songs include "My Own Kind of Mojo," "Drive Thru Life," "Good Times Roll" and a new demo never heard before, "First World Problems."</description>
+      <itunes:subtitle>The podcast that unwisely revisits those awkward moments that keep us up at night.</itunes:subtitle>
+      <itunes:summary>Singer/Songwriter Antsy McClain unwisely revisits the painful moments of our lives, and laughs with you as we all try to figure it out</itunes:summary>
+      <itunes:category text="Arts">
+        <itunes:category text="Performing Arts"/>
+      </itunes:category>
+      <itunes:explicit>False</itunes:explicit>
+      <itunes:duration>29:15</itunes:duration>
+      <guid isPermaLink="true">https://archive.org/download/episode21rustyandtheguitar222203.45pm/EPISODE%2021%20-%20RUSTY%20AND%20THE%20GUITAR%20-%202%3A22%3A20%2C%203.45%20PM.mp3</guid>
+      <enclosure url="https://archive.org/download/episode21rustyandtheguitar222203.45pm/EPISODE%2021%20-%20RUSTY%20AND%20THE%20GUITAR%20-%202%3A22%3A20%2C%203.45%20PM.mp3" length="28089701" type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>

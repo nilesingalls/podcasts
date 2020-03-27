@@ -50,7 +50,7 @@
       <item>
         <itunes:author>{{ itunes.author }}</itunes:author>
           <title>{{ item.title|e }}</title>
-          <pubDate>{{ item.date }}</pubDate>
+          <pubDate>{{ item.date|default(item.publicdate) }}</pubDate>
           <description>{{ item.description|e }}</description>
           <itunes:subtitle>{{ itunes.subtitle }}</itunes:subtitle>
           <itunes:summary>{{ itunes.summary }}</itunes:summary>

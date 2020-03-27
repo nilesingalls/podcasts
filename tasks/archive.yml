@@ -29,12 +29,48 @@
           </channel>
           </rss>
 
+- name: tidy xml for publication
+  shell: xmllint --format /tmp/{{ podcastxml }} > /tmp/{{ podcastxml }}.tidy
+
 # alright, do a compare on new vs old podcast.xml file.  if there are changes,
 # identify number of items, titles, and email them to someone.
+
+# but first, do we have an old podcast file?
+- name: look for previously generated podcast xml 
+  stat:
+    path: "{{ playbook_dir }}/{{ podcastxml }}"
+  register: previouspod
+
+- block:
+    - name: do a compare vs old podcast.xml file (if it exists). if there are chanages, inform via email
+      shell: diff {{ playbook_dir }}/{{ podcastxml }} /tmp/{{ podcastxml }}.tidy
+      register: diff
+      ignore_errors: yes
+
+# {{ itunes.owner.email }}"
+    - name: email user with the news
+      mail:
+#        headers:
+#        - Reply-To:={{ ena_replyto }}
+        charset: us-ascii
+#        host: "{{ ena_smtp }}"
+#        from: ""
+        to: "nilesingalls@gmail.com"
+        subject: "podcast information"
+        body:  >-
+           something changes, perhaps a new podcast! possibly just an edit.  podcast.xml file attached.
+        attach:
+          - "{{ playbook_dir }}/{{ podcastxml }}"
+      when: diff.stdout | length > 0
+
+  when: previouspod.stat.exists == true
 
 - name: tidy xml for publication
   shell: xmllint --format /tmp/{{ podcastxml }} > {{ playbook_dir }}/{{ podcastxml }}
 
 - file:
     state: absent
-    path: /tmp/{{ podcastxml }}
+    path: /tmp/{{ item }}
+  loop:
+    - "{{ podcastxml }}"
+    - "{{ podcastxml }}.tidy"
